@@ -1,0 +1,10 @@
+
+   export default {
+       encode : function(modelValue){
+           return  modelValue === true ? 'true' : 'false';
+       },
+       
+       decode : function(nodeValue){
+           return (nodeValue === 'true');
+       }
+   };

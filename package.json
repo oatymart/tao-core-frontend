@@ -1,0 +1,20 @@
+{
+  "name": "tao-core-frontend",
+  "version": "1.0.4",
+  "description": "Export a bunch of modules from tao-core views/js",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "oatymart",
+  "license": "GPL-2.0",
+  "dependencies": {
+  },
+  "devDependencies": {
+    "babel-preset-env": "^1.7.0",
+    "babel-register": "^6.26.0",
+    "require-dir": "^1.2.0",
+    "require-directory": "^2.1.1",
+    "require-tree": "^1.1.1"
+  }
+}
